@@ -5,6 +5,7 @@
  int main(int argc, char const *argv[])
  {
      int n = 0, sum = 0;
+     cout<<"Enter the number of denominations";
      cin>>n;
      int den[n];
      cout<<"Enter the denominations"<<endl;
@@ -25,7 +26,8 @@
     for(int i = 0; i<n; i++){
         for(int j = 1; j<sum+1;j++){
             if(den[i]>j){
-                coins[i][j] = 0;
+                x1 = (i>0)?coins[i-1][j]:0;
+                x2 = 0;
             }
             else{
                 x1 = (i>0)?coins[i-1][j]:0;
@@ -34,8 +36,7 @@
             coins[i][j] = x1+x2;    
         }
     }
-    
-    cout<<coins[n-1][sum];
+    cout<<coins[n-1][sum]<<endl;
     return 0;
  }
  /*
