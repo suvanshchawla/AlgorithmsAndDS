@@ -13,9 +13,6 @@
      }
      cout<<"Enter the sum: \t";
      cin>>sum;
-    /* for(int i = 0; i< n; i++){
-        cout<<den[i]<<"\t"<<endl;
-    } */ 
 
     int coins[n][sum+1];
     std::fill((int*)coins,(int*)coins+sizeof(coins)/sizeof(int),0);
