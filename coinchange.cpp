@@ -16,7 +16,7 @@
      cin>>sum;
 
     int coins[n][sum+1];
-    // std::fill((int*)coins,(int*)coins+sizeof(coins)/sizeof(int),0);
+    // std::fill((int*)coins,(int*)coins+sizeof(coins)/sizeof(int),0); // Just to intialize all the values of the array to 0 (Not Necessary)
 
     for(int i = 0; i< n; i++){
         coins[i][0] = 1;
