@@ -1,5 +1,5 @@
 #include<iostream>
-#include<algorithm>
+// #include<algorithm>
  using namespace std;
 
  int main(int argc, char const *argv[])
@@ -15,7 +15,7 @@
      cin>>sum;
 
     int coins[n][sum+1];
-    std::fill((int*)coins,(int*)coins+sizeof(coins)/sizeof(int),0);
+    // std::fill((int*)coins,(int*)coins+sizeof(coins)/sizeof(int),0);
 
     for(int i = 0; i< n; i++){
         coins[i][0] = 1;
