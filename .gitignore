@@ -33,7 +33,7 @@
 
 
 
-
+#ignore any file that doesn't have an extension
 *
 !/**/
 !*.*
