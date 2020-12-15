@@ -26,8 +26,10 @@ int arrSum = 0, max_sum = 0, windowSum;
 
 int main(){
     int n, num;
-    int arr[] = { 1, 4, 2, 10, 2, 3, 1, 0, 20 };
-    num = 4;
-    n = sizeof(arr)/sizeof(arr[0]);
+    cin>>n;   
+    int arr[n];
+    cin>>num;
+    for(int i =0; i<n; i++)
+        cin>>arr[i];
     cout<<maxSum(arr, num, n);
 }
