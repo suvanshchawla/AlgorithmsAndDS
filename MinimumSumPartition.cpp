@@ -15,7 +15,7 @@ bool isSubsetSum(int arr[], int n, int sum){
 bool findPartition(int arr[], int n, int sum){
     if(sum%2 == 0)
         return isSubsetSum(arr, n, sum/2);
-        
+
 }
 
 int main(){
@@ -33,7 +33,7 @@ int main(){
         cout<<"Cannot be divided into 2 subsets of equal sum";
     }
     else{
-        
+              
     }
 
 }
