@@ -2,6 +2,8 @@
 
 using namespace std;
 
+//This is currently incomplete and is a WIP
+
 bool isSubsetSum(int arr[], int n, int sum){
 
     //Check if the sum is zero
@@ -40,10 +42,5 @@ int main(){
 
 
 /*
-
 This code aims to solve the Minimum Sum Partition Problem, i.e. Partition a set into two subsets such that the difference of subset sums is minimum 
-
-
-
-
 */
