@@ -41,7 +41,7 @@ int main(){
 
 /*
 
-This code aims to solve the Minimum Sum Partition Problem, i.e. Partition a set into two subsets suh that the difference of subset sums is minimum 
+This code aims to solve the Minimum Sum Partition Problem, i.e. Partition a set into two subsets such that the difference of subset sums is minimum 
 
 
 
